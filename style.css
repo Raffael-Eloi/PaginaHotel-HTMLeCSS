@@ -1,0 +1,151 @@
+/* Formatações gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Formatações no cabeçalho */
+header {
+    background-color: indianred;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+header h1 {
+    display: inline;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 9%;
+    top: 25px;
+}
+
+header h1:hover {
+    font-size: 35px;
+}
+
+/* Formatações na barra de navegação */
+nav {
+    position: absolute;
+    right: 13%;
+    top: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+nav li:hover {
+    background-color: darkslategrey;
+}
+
+/* Formatações em imagens*/
+.banner {
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 9%;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.imagem-quartos {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.imagem-quartos:hover {
+    width: 310px;
+    height: 310px;
+}
+
+/* Formatações de texto */
+.centralizado {
+    text-align: center;
+}
+
+/* Formatações no conteúdo principal */
+main {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+main h2 {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/* Formatações na lista de itens do conteúdo principal */
+.lista-quartos li {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid indianred;
+    border-radius: 5px;
+    padding: 10px 45px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 560px;
+}
+
+.titulo-quarto {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.lista-quartos li:hover .titulo-quarto:hover {
+    font-size: 25px;
+}
+
+.item-quarto {
+    text-align: left;
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.preco-quarto {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding: 15px;
+    background-color: #00FF00;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.preco-quarto a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.preco-quarto:hover {
+    background-color: green;
+}
+
+/* Formatações no rodapé */
+footer {
+    background-color: indianred;
+    padding: 15px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
