@@ -7,3 +7,7 @@ A página simula uma página inicial de um Hotel, onde na guia inicial é mostra
   + Display
   + Position 
   + Seletor hover
+
+## Você pode acessar a página clicando <a href="https://raffael-eloi.github.io/PaginaHotel-HTMLeCSS/">aqui</a>.
+
+## Segue abaixo demostração da página criada:
