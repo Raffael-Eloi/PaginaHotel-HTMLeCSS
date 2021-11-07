@@ -10,14 +10,16 @@
         <!-- Instruções ao browser de como controlar a dimensão das páginas-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-
         <!-- Fonte -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mobile.css">  
 
         <!-- Título -->
         <title>Hotel RE</title>
@@ -25,20 +27,28 @@
     <body>
         <!-- Cabeçalho -->
         <header>
-            <!-- Título do cabeçalho -->
-            <h1>Bem vindo ao Hotel RE</h1>
+            <div class="container">
+                <div class="cabecalho">
+                    <!-- Título do cabeçalho -->
+                    <h1 class="titulo-principal">Bem vindo ao Hotel RE</h1>
 
-            <!-- Barra de navegação -->
-            <nav>
-                <ul> <!-- Lista de itens na barra de navegação -->
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Produtos</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
-            </nav>
+                    <!-- Barra de navegação -->
+                    <nav class="barra-navegacao">
+                        <ul> <!-- Lista de itens na barra de navegação -->
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">Produtos</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div> <!-- Fim div cabecalho -->
 
-            <!-- Banner -->
-            <img class="banner" src="imagens/visaoGeralHotel.jpg">
+                <div class="cabecalho-imagem-principal">
+                    <!-- Banner -->
+                    <img class="banner" src="imagens/visaoGeralHotel.jpg">
+                </div> <!-- Fim div cabecalho-imagem-principal -->
+                  
+            </div> <!-- Fim header container -->
+            
         </header>
 
         <!-- Conteúdo principal -->
